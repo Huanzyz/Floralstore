@@ -1,0 +1,69 @@
+<% include ../../partials/head.ejs %>
+<link rel="stylesheet" type="text/css" href="/trackOrder/css/styles.css">
+<link rel="stylesheet" type="text/css" href="/trackOrder/css/responsive.css">
+<% include ../../partials/header.ejs %>
+<div class="super_container_inner">
+    <div class="content">
+        <p id="page-title">THEO DÕI ĐƠN HÀNG <span><strong>#71238</strong></span></p>
+        <div id="progress-bar">
+            <div class="root-container">
+                <ul class="progressbar">
+                    <li>Đặt hàng thành công</li>
+                    <li>Tiếp nhận đơn hàng</li>
+                    <li>Đóng gói</li>
+                    <li>Giao hàng</li>
+                    <li id="finalStage">Giao hàng thành công</li>
+                </ul>
+            </div>
+        </div>
+        <div id="infor" class="row">
+            <div class="col-lg-8 history-container">
+                <div id="history">'
+                    <p id="title">Chi tiết trạng thái đơn hàng</p>
+                    <div class="row">
+                        <div class="col-sm-5" id="timeline">
+                            <p class="date"><b>Thứ sáu, 04/01/2019</b></p>
+                            <p class="time">15:30</p>
+                            <p class="time">09:12</p>
+                            <p class="date"><b>Thứ năm, 03/01/2019</b></p>
+                            <p class="time">18:17</p>
+                            <p class="time">14:12</p>
+                            <p class="time">14:11</p>
+                        </div>
+                        <div class="col-sm-7" id="task">
+                            <p class="date" style="font-size: 16px;">&nbsp;</p>
+                            <p class="date" style="color: #10AC84;">Giao thành thành công</p>
+                            <p class="date">Đang vận chuyển</p>
+                            <p class="date" style="font-size: 16px">&nbsp;</p>
+                            <p class="date">Đang đóng gói</p>
+                            <p class="date">Tiếp nhận đơn hàng</p>
+                            <p class="date">Đặt hàng thành công</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" id="cart">
+                <p id="title">KIỆN HÀNG</p>
+                <div class="product">                    
+                    <p class="product-info">Lọ hoa sensational</p>
+                    <a href="/detail-a-product">
+                        <img class="product-img" src="/trackOrder/image/sample.png">
+                    </a>
+                </div>
+                <div class="product">
+                    <p class="product-info">Hoa hồng leo</p>
+                    <a href="/detail-a-product">
+                    <img class="product-img" src="/trackOrder/image/shop-img-13.jpg"></a>
+                </div>
+                <div class="pagination" id="page-box">
+                    <a href="#">&laquo;</a>
+                    <a class="active" href="#">1</a>
+                    <a  href="#">2</a>
+                    <a href="#">&raquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>			
+</div>
+
+<% include ../../partials/footer.ejs %>

@@ -1,0 +1,186 @@
+<% include ../../partials/head.ejs %>
+<link rel="stylesheet" type="text/css" href="/checkout/css/style.css">
+<link rel="stylesheet" type="text/css" href="/checkout/css/checkout_responsive.css">
+<% include ../../partials/header.ejs %>
+<div class="super_container_inner">
+		<div class="super_overlay"></div>
+
+		<!-- Home -->
+
+		<div class="home">
+			<div class="home_container">
+				<div class="home_title">THANH TOÁN</div>
+			</div>
+		</div>
+
+		<!-- Checkout -->
+
+		<div class="checkout">
+			<div class="container">
+				<div class="row">
+					
+					<!-- Billing -->
+					<div class="col-lg-6">
+						<div class="billing">
+							<div class="checkout_title">Hóa đơn</div>
+							<div class="checkout_form_container">
+								<form action="#" id="checkout_form" class="checkout_form">
+									<div class="row">
+										<div class="col-lg-6">
+											<!-- Name -->
+											<input type="text" id="checkout_name" class="checkout_input" placeholder="Họ" required="required">
+										</div>
+										<div class="col-lg-6">
+											<!-- Last Name -->
+											<input type="text" id="checkout_last_name" class="checkout_input" placeholder="Tên" required="required">
+										</div>
+									</div>
+									<div>
+										<!-- Company -->
+										<input type="text" id="checkout_company" placeholder="Công ty" class="checkout_input">
+									</div>
+									<div>
+										<!-- Country -->
+										<select name="checkout_country" id="checkout_country" class="dropdown_item_select checkout_input" require="required">
+											<option>Quốc gia</option>
+											<option>Việt Nam</option>
+											<option>Thái Lan</option>
+											<option>Hàn Quốc</option>
+											<option>Nhật Bản</option>
+										</select>
+									</div>
+									<div>
+										<!-- Address -->
+										<input type="text" id="checkout_address" class="checkout_input" placeholder="Địa chỉ 1" required="required">
+										<input type="text" id="checkout_address_2" class="checkout_input checkout_address_2" placeholder="Địa chỉ 2" required="required">
+									</div>
+									<div>
+										<!-- Zipcode -->
+										<input type="text" id="checkout_zipcode" class="checkout_input" placeholder="Mã Zip" required="required">
+									</div>
+									<div>
+										<!-- City / Town -->
+										<select name="checkout_city" id="checkout_city" class="dropdown_item_select checkout_input" require="required">
+											<option>Thành phố/ Thị Trấn</option>
+											<option>Hồ Chí Minh</option>
+											<option>Hà Nội</option>
+											<option>Seoul</option>
+											<option>Tokyo</option>
+										</select>
+									</div>
+									<div>
+										<!-- Province -->
+										<select name="checkout_province" id="checkout_province" class="dropdown_item_select checkout_input" require="required">
+											<option>Tỉnh</option>
+											<option>Hồ Chí Minh</option>
+											<option>Hà Nội</option>
+											<option>Gangnam</option>
+											<option>Hokkaido</option>
+										</select>
+									</div>
+									<div>
+										<!-- Phone no -->
+										<input type="phone" id="checkout_phone" class="checkout_input" placeholder="Số điện thoại" required="required">
+									</div>
+									<div>
+										<!-- Email -->
+										<input type="phone" id="checkout_email" class="checkout_input" placeholder="Email" required="required">
+									</div>
+									<div class="checkout_extra">
+										<ul>
+											<li class="billing_info d-flex flex-row align-items-center justify-content-start">
+												<label class="checkbox_container">
+													<input type="checkbox" id="cb_1" name="billing_checkbox" class="billing_checkbox">
+													<span class="checkbox_mark"></span>
+													<span class="checkbox_text">Các điều khoản và điều kiện</span>
+												</label>
+											</li>
+											<li class="billing_info d-flex flex-row align-items-center justify-content-start">
+												<label class="checkbox_container">
+													<input type="checkbox" id="cb_2" name="billing_checkbox" class="billing_checkbox">
+													<span class="checkbox_mark"></span>
+													<span class="checkbox_text">Tạo một tài khoản</span>
+												</label>
+											</li>
+											<li class="billing_info d-flex flex-row align-items-center justify-content-start">
+												<label class="checkbox_container">
+													<input type="checkbox" id="cb_3" name="billing_checkbox" class="billing_checkbox">
+													<span class="checkbox_mark"></span>
+													<span class="checkbox_text">Đăng kí nhận thông tin</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<!-- Cart Total -->
+					<div class="col-lg-6 cart_col">
+						<div class="cart_total">
+							<div class="cart_extra_content cart_extra_total">
+								<div class="checkout_title">Tổng tiền giỏ hàng</div>
+								<ul class="cart_extra_total_list">
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_extra_total_title">Tạm tính</div>
+										<div class="cart_extra_total_value ml-auto">1,500,000 VND</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_extra_total_title">Phí thanh toán</div>
+										<div class="cart_extra_total_value ml-auto">Miễn phí</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_extra_total_title">Thành tiền</div>
+										<div class="cart_extra_total_value ml-auto">1,500,000 VND</div>
+									</li>
+								</ul>
+								<div class="payment_options">
+									<div class="checkout_title">Phương thức thanh toán</div>
+									<ul>
+										<li class="shipping_option d-flex flex-row align-items-center justify-content-start">
+											<label class="radio_container">
+												<input type="radio" id="radio_1" name="payment_radio" class="payment_radio">
+												<span class="radio_mark"></span>
+												<span class="radio_text">Paypal</span>
+											</label>
+										</li>
+										<li class="shipping_option d-flex flex-row align-items-center justify-content-start">
+											<label class="radio_container">
+												<input type="radio" id="radio_2" name="payment_radio" class="payment_radio">
+												<span class="radio_mark"></span>
+												<span class="radio_text">Thanh toán khi nhận hàng</span>
+											</label>
+										</li>
+										<li class="shipping_option d-flex flex-row align-items-center justify-content-start">
+											<label class="radio_container">
+												<input type="radio" id="radio_3" name="payment_radio" class="payment_radio" checked>
+												<span class="radio_mark"></span>
+												<span class="radio_text">Thẻ tín dụng</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+								<div class="cart_text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integ er bibendum sodales arcu id te mpus. Ut consectetur lacus.</p>
+								</div>
+								<div class="checkout_button trans_200"><a href="/trackorder">tiến hành thanh toán</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+<script src="/checkout/js/jquery-3.2.1.min.js"></script>
+<script src="/cart/css/bootstrap-4.1.2/popper.js"></script>
+<script src="/cart/css/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="/cart/plugins/greensock/TweenMax.min.js"></script>
+<script src="/cart/plugins/greensock/TimelineMax.min.js"></script>
+<script src="/cart/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="/cart/plugins/greensock/animation.gsap.min.js"></script>
+<script src="/cart/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="/cart/plugins/easing/easing.js"></script>
+<script src="/cart/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="/checkout/js/checkout.js"></script>
+<% include ../../partials/footer.ejs %>

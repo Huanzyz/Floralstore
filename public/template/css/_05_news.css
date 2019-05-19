@@ -1,0 +1,173 @@
+.rxnews-pagewrap {
+  background-color: #ffffff;
+  min-height: 1200px;
+  padding: 45px;
+  margin-top: 30px;
+}
+
+.rxnews-cat>div {
+  float: left;
+  font-weight: 600;
+  font-size: 11px;
+  padding: 5px 12px;
+  border-bottom: 2px solid;
+  margin-right: 9px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 16px;
+  color: #161616;
+  margin-bottom: 10px;
+}
+
+.rxnews-cat>div.rx-active {
+  background-color: #161616;
+  color: #ffffff;
+}
+
+.rxnews-contents {
+  padding-right: 30px;
+}
+
+.rxnews-cat {
+  margin-bottom: 40px;
+}
+
+.rxnews-hot {
+  padding: 20px 20px;
+  min-height: 350px;
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  border-top: 4px solid #161616;
+  margin-top: 50px;
+}
+
+.rxnews-hothead {
+  width: 100%;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #161616;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: -65px;
+}
+
+.rxnews-hotbody>a {
+  font-weight: 500;
+  margin-top: 9px;
+  padding-left: 15px;
+  font-size: 13px;
+  display: block;
+}
+
+.rxnews-hotbody>a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 5px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 10px solid #161616;
+}
+
+.rxnews-post-cat>div {
+  float: left;
+  margin-right: 10px;
+  padding: 1px 10px;
+  font-size: 10px;
+  cursor: pointer;
+  color: #161616;
+  font-weight: 500;
+  background-color: #eee;
+  border-radius: 20px;
+  margin-bottom: 3px;
+}
+
+.rxnews-post {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  min-height: 140px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.rxnews-post-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.rxnews-post-pic {
+  width: 250px;
+  position: absolute;
+  height: 172px;
+  background-color: #f2f2f2;
+}
+
+.rxnews-post-body {
+  padding-left: 280px;
+}
+
+.rxnews-post-desc {
+  color: #999;
+  font-weight: 100;
+}
+
+.rxnewsex-image {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.rxnewsex-image>img {
+  max-width: 300px;
+}
+
+.rxnewsex-title {
+  font-size: 28px;
+  font-weight: bold;
+  padding-right: 50px;
+  margin-bottom: 10px;
+}
+
+.rxnewsex-content {
+  padding-right: 50px;
+  font-size: 14px;
+}
+
+.rxnewsex-content p {
+  font-size: 14px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.rxnewsex-content b {
+  font-size: 14px;
+}
+
+.rxnewsex-date {
+  color: #929292;
+}
+
+.rxnews-post-cat {
+  float: left;
+}
+
+.rxnewsex-desc {
+  padding-right: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.rxnews-hotbody a:visited {
+  color: #777;
+}

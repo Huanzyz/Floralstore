@@ -1,0 +1,280 @@
+
+a.mainhead-account-login {
+  color: #193e74;
+  font-weight: bold;
+}
+
+.lk-login-customer-page {
+  min-height: 500px;
+  padding-top: 80px;
+}
+
+.lk-row-nomar {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.lk-page-customer-info {
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.lk-login-section-title-wrap {
+  width: 370px;
+  margin: auto;
+}
+
+.lk-login-section-title:first-child {
+  margin-right: 20px;
+}
+
+.lk-login-section-title.rx-active {
+  color: #161616;
+  box-shadow: 0 3px 0 #161616;
+  font-weight: bold;
+}
+
+.lk-login-section-title {
+  font-size: 24px;
+  padding-bottom: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  float: left;
+  color: #333;
+  width: 170px;
+  text-align: center;
+}
+
+.lk-login-section-title:first-child:after {
+  content: '';
+  height: 25px;
+  width: 1px;
+  float: right;
+  margin-top: 5px;
+  background-color: #000;
+  position: absolute;
+  margin-left: 30px;
+}
+
+.lk-login-customer-inner {
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.lk-login-submit-section {
+  padding-top: 10px;
+}
+
+.lk-page-login-customer-submit {
+  cursor: pointer;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  background-color: #161616;
+  height: 50px;
+  width: 300px;
+  font-weight: 500;
+  letter-spacing: 2.1px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.lk-page-login-customer-submit a {
+  color: white;
+  font-size: 18px;
+}
+
+.lk-link-forgetpass a{
+  cursor: pointer;
+}
+
+.lk-input-group-row {
+  padding-bottom: 10px;
+}
+
+.lk-table-date {
+  font-size: 10px; 
+}
+
+.lk-table-customer-name {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.lk-row-nomar-customer {
+  width: 100%;
+}
+
+.lk-title-customer-sidebar {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffffff;
+  border-top: solid 3px #869467;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 20%;
+}
+
+.lk-customer-content-info {
+  padding-left: 0px;
+  min-height: 500px;
+  border-left: 1px solid #eee;
+  background-color: #fff;
+  border-top: solid 3px #69744f;
+  margin-left: 3%;
+  position: relative;
+  width: 75%;
+}
+
+.lk-customer-main {
+  width: 100%;
+  display: inline-block;
+}
+
+.lk-customer-topnav {
+  height: 30px;
+}
+
+.lk-customer-mainnav {
+  position: absolute;
+  width: 278px;
+  border-radius: 2px;
+  background-color: #fff;
+  padding-top: 0;
+  float: left;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.lk-customer-mainnav-inner {
+  height: 100%;  
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.lk-customer-container {
+  width: 100%;
+  background-color: #fff;
+  padding-left: 248px;
+  box-sizing: border-box;
+}
+
+.lk-customer-mainnav-item {
+  font-size: 14px;
+  font-weight: 400;
+  padding: .4rem 1rem;
+  display: block;
+  padding-left: 2.5rem;
+  cursor: pointer;
+}
+
+.lk-customer-mainnav-name {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 12px 17px;
+  height: 45px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #161616;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.lk-customer-page {
+  min-height: 700px;  
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.lk-customer-page-info-body {
+  padding: 10px;
+}
+
+.lk-customer-page-info-text {
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.lk-login-customer-page {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 80px;
+  padding-top: 0;
+  width: 800px;
+  max-width: 100%;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  margin-bottom: 80px;
+}
+
+.rxauthen-left-container {
+  width: 300px;
+  height: 600px;
+  display: block;
+  float: left;
+  background-color: #f8f8f8;
+}
+
+.lk-cart-page-customer-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.lk-cart-page-customer-phone {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.lk-input-group-row>div {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.lk-register-customer-inner {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.lk-register-customer-inner .lk-input-group-row {
+  float: left;
+  width: 46%;
+  margin-right: 4%;
+}
+
+.lk-input-error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.lk-login-section-title-contact {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  border-bottom: solid 4px;
+  width: 160px;
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+.admin-cardblock-btns .btn-edit {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  padding: 3px 6px;
+  background-color: #161616;
+}

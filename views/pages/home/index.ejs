@@ -1,0 +1,43 @@
+<% include ../../partials/head.ejs %>
+<% include ../../partials/header.ejs %>
+<% include ../../partials/slidebar.ejs %>
+
+        <!-- Multiple items per slide -->
+        <div>
+            <!-- <div class='rx-header row row-nmar rx-header-desktop'>
+                <div class='rx-category'>
+                    <div class='rx-categories'></div>
+                </div>
+                <div class='rx-slider'>
+                    <div class='exampleSliders'>{slidehome}</div>
+                </div>
+            </div>
+            <div class='rx-header row row-nmar rx-header-mobile'>
+                <div class='rx-slider'>
+                    <div class='exampleSliders'>{slidehomeMobile}</div>
+                </div>
+            </div> -->
+
+            <% include ../../partials/new_product.ejs %>
+            <% include ../../partials/show_product.ejs %>
+    
+            <!-- <div class='container rx-mobile-show clearfix'>
+                <div class='blockfix--banner'>
+                {this.state.imgbanners && this.state.imgbanners.length !== 0  && 
+                  <div class='rx-main-banner-2'>
+                    <div style={{ backgroundImage: 'url( '+ config.base_api + '/upload/image/' + this.state.imgbanners[4]['img_landscape'] +' )' }} class='banner-2-1'><a href={this.state.imgbanners[4]['url']}></a></div>
+                    <div style={{ backgroundImage: 'url( '+ config.base_api + '/upload/image/' + this.state.imgbanners[3]['img_landscape'] +' )' }} class='banner-2-2'><a href={this.state.imgbanners[3]['url']}></a></div>
+                    <div style={{ backgroundImage: 'url( '+ config.base_api + '/upload/image/' + this.state.imgbanners[2]['img_landscape'] +' )' }} class='banner-1-1'><a href={this.state.imgbanners[2]['url']}></a></div>
+                    <div style={{ backgroundImage: 'url( '+ config.base_api + '/upload/image/' + this.state.imgbanners[1]['img_landscape'] +' )' }} class='banner-1-2'><a href={this.state.imgbanners[1]['url']}></a></div>
+                    <div style={{ backgroundImage: 'url( '+ config.base_api + '/upload/image/' + this.state.imgbanners[0]['img_landscape'] +' )' }} class='banner-1-3'><a href={this.state.imgbanners[0]['url']}></a></div>
+                  </div> 
+                }           
+                </div>
+              </div> -->
+    
+              <% include ../../partials/popular_product.ejs %>
+        </div>
+        <!-- Multiple items per slide -->
+    
+
+<% include ../../partials/footer.ejs %>

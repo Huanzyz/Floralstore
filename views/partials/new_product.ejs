@@ -1,0 +1,81 @@
+<div class='blockfull--product'>
+    <div class='container'>
+        <div class='tabs'>
+            <div class='tabs-title'>
+                <div class='tabs__title'>
+                    <div class='tabs_title_head'>Sản phẩm <b>mới về</b></div>
+                </div>
+            </div>
+            <div class='rx-main-product'>
+                <div class="hide-scroll blockproduct__colwrap" data-reactid="198">
+                    <div class="blockproduct__col" data-reactid="199">
+                        <!-- item 1 -->
+                        <%list1.forEach(function(product){ %>
+                        <div class='rx-product-item col-sm-lg col-sm-5c show'>
+                            <div class='rx-product-figure'>
+                                <div class='rx-product-sale-of'>
+                                    <p><span>100</span>%</p>
+                                </div>
+                                <div class='rx-product-figure-header'>
+                                    <a href="/detail-a-product?id=<%=product._id%>&&code=<%=product.category%>">
+                                        <img class='' src="<%=product.image%>" alt='' title='' />
+                                    </a>
+                                </div>
+                                <div class="rx-product-figure-body">
+                                        <div class="figure-body-brand-inlist"><%=product.category%></div>
+                                        <div class="figure-body-title"><%=product.name%></div>
+                                        <div class="rx-relative">
+                                            <div class="figure-body-price">
+                                                <!-- react-text: 6175 --><%=product.price%>
+                                                <!-- /react-text -->
+                                                <!-- react-text: 6176 --> đ
+                                                <!-- /react-text -->
+                                            </div>
+                                            <div class="figure-body-freeship"></div>
+                                        </div>
+                                        <div class="figure-body-rating-star">
+                                            <div>
+                                                <div class="rx-star-off"></div>
+                                            </div>
+                                            <div>
+                                                <div class="rx-star-off"></div>
+                                            </div>
+                                            <div>
+                                                <div class="rx-star-off"></div>
+                                            </div>
+                                            <div>
+                                                <div class="rx-star-off"></div>
+                                            </div>
+                                            <div>
+                                                <div class="rx-star-off"></div>
+                                            </div>
+                                            <div class="rx-star-text">
+                                                <!-- react-text: 6190 -->(
+                                                <!-- /react-text -->
+                                                <!-- react-text: 6191 -->0
+                                                <!-- /react-text -->
+                                                <!-- react-text: 6192 -->)
+                                                <!-- /react-text -->
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="rx-product-action"><a href="/detail-a-product?id=<%=product._id%>&&code=<%=product.category%>">
+                                            <div class="rx-action-like"></div>
+                                            <div class="rx-action-card"></div>
+                                            <div class="rx-action-addcart">Mua ngay</div>
+                                    </div>
+                            </div>
+                        </div>
+                        <% }); %>
+                    </div>
+                </div>
+                <div class='blockproduct-arr jcarousel-control-prev carousel__arrow'><span
+                        class='mlkicon-Right mlkicon-Arrows'></span></div>
+                <div class='blockproduct-arr jcarousel-control-next carousel__arrow'><span
+                        class='mlkicon-Left mlkicon-Arrows'></span></div>
+            </div>
+        </div>
+    </div>
+    <a href=""><div class="blockproduct__more" style = "margin-bottom: 100px">Xem thêm</div></a>
+</div>

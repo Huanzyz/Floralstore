@@ -1,0 +1,56 @@
+<% include ../../partials/head.ejs %>
+<% include ../../partials/header.ejs %>
+
+    <!-- Sign up -->
+    <div class='lk-login-customer-page'>
+        <div class='row lk-row-nomar'>
+            <div class='rxauthen-left-container lk-contact'></div>
+            <div class='lk-page-customer-info lk-page-info-register'>
+                <div class='lk-login-section-title-wrap clearfix'>
+                    <!-- Go to Dang nhap -->
+                    <a class='lk-login-section-title' href='/login'>Đăng nhập</a>
+                    <div class='lk-login-section-title rx-active'>Đăng ký</div>
+                </div>
+                
+                <div class='lk-register-customer-inner'>
+                    <div class='clearfix'>
+                        <div class='clearfix'>
+                            <div class='lk-input-error' id="register-alert"></div>
+                        </div>
+                        <div class='lk-input-group-row'>
+                            <div>Email *</div>
+                            <input tabIndex='1' type='email' name='email' class='fullwidth-input' id="email-input-register"/>
+                        </div>
+                        <div class='lk-input-group-row'>
+                            <div>Mật khẩu *</div>
+                            <input tabIndex='2' type='password' name='password' class='fullwidth-input' id="password-input-register"/>
+                        </div>
+                        <div class='lk-input-group-row'>
+                            <div>Họ *</div>
+                            <input tabIndex='3' type='text' name='lastname' class='fullwidth-input' id="first-name-input"/>
+                        </div>
+                        <div class='lk-input-group-row'>
+                            <div>Tên *</div>
+                            <input tabIndex='4' type='text' name='firstname' class='fullwidth-input' id="last-name-input"/>
+                        </div>
+                        <div class='lk-input-group-row'>
+                            <div>Số điện thoại *</div>
+                            <input tabIndex='5' type='text' name='phone' class='fullwidth-input' id="phone-input"/>
+                        </div>
+                        <div class='lk-input-group-row'>
+                            <div>Địa chỉ *</div>
+                            <input tabIndex='6' type='text' name='address' class='fullwidth-input' id="address-input"/>
+                        </div>
+                    </div><br />
+                    <div class='lk-login-submit-section'>
+                        <div tabIndex='10' class='lk-page-login-customer-submit' id="btn-register">Đăng ký</div>
+                    </div>
+                    <div class='lk-login-submit-section'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+
+<% include ../../partials/footer.ejs %>

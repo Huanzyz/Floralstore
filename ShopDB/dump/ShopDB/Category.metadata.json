@@ -1,0 +1,1 @@
+{"options":{"validationLevel":"strict","validationAction":"error"},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"ShopDB.Category"}],"uuid":"0c7d022dbc43405fa2813e6cc5cc410c"}

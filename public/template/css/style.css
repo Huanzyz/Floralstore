@@ -1,0 +1,25 @@
+@import url("_011_index.css");
+@import url("_012_icons.css");
+@import url("_02_main.css");
+@import url("_03_di.css");
+@import url("_04_joker.css");
+@import url("_05_news.css");
+@import url("_06_authenticate.css");
+@import url("_07_admin.css");
+@import url("_08_element.css");
+@import url("_09_react-sortable-tree.css");
+@import url("_10_responsive.css");
+@import url("_11_mobile.css");
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500&subset=vietnamese');
+html, * {
+  font-family: 'Quicksand', sans-serif;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.rx-product-item {
+  display: inline-block;
+}
+

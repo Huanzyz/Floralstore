@@ -1,0 +1,46 @@
+<% include ../../partials/head.ejs %>
+<% include ../../partials/header.ejs %>
+
+    <!-- login -->
+    <div class='lk-login-customer-page'>
+        <div class='row lk-row-nomar'>
+            <div class='rxauthen-left-container lk-contact'></div>
+            <div class='lk-page-customer-info lk-page-info-login'>
+                <div class='lk-login-section-title-wrap clearfix'>
+                    <div class='lk-login-section-title rx-active'>Đăng nhập</div>
+                    <!-- Go to: Dang ky -->
+                    <a class='lk-login-section-title' href='/register'>Đăng ký</a>
+                </div>
+
+                <div class='lk-login-customer-inner'>
+                    <div>
+                       <div class='clearfix'>
+                            <div class='lk-input-error' id="login-alert"></div>
+                        </div> 
+                        <div class='lk-input-group-row'>
+                            <div class='lk-cart-page-customer-name'>Email</div>
+                            <input tabIndex='1' type='email' name='email' class='fullwidth-input' id="email-input"/>
+                        </div>
+                        
+                        <div class='lk-input-group-row'>
+                            <div class='lk-cart-page-customer-phone'>Mật khẩu</div>
+                            <input tabIndex='2' type='password' name='phone' class='fullwidth-input' id="password-input" />
+                        </div>
+                        
+                    </div><br />
+
+                    <div class='lk-login-submit-section'>
+                        <div class='lk-link-forgetpass'><a href='/forget-password'>Quên mật khẩu?</a></div>
+                    </div>
+
+                    <div class='lk-login-submit-section'>
+                        <div tabIndex='3' class='lk-page-login-customer-submit'><a >Đăng nhập</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+<% include ../../partials/footer.ejs %>
